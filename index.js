@@ -18,5 +18,5 @@ app.get('/', cors(corsOptions), (req, res, next) => {
 });
 
 app.listen(port, () => {
- console.log(`Backend rodando no local e porta ${port}`);
+ console.log(`Backend rodando no local e porta ${port} http://localhost:${port}`);
 });
